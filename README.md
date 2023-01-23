@@ -1,3 +1,7 @@
+# Achieved Goals 
+How I achieved the goals was first I created a different file called Tree.js that creates a merkle tree from the nice list, gets the root of that tree and save the value to a variable called MERKLE_ROOT. Then I put a name of what I wanted to search. It then gets the index of that name if it is there. After it gets a proof, which then prompts it to send the name and the proof to the server. from there it grabs both from the body and it verifies the proof and makes the answer to isIntheList, which gives is our final output. 
+
+
 # Gift List
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
